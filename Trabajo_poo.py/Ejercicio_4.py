@@ -2,8 +2,8 @@
 #auto.
 
 class Auto:
-    def __init__(self,Marca,modelo,año):
-        self.marca = Marca
+    def __init__(self,marca,modelo,año):
+        self.marca = marca
         self.modelo = modelo
         self.año = año
         
