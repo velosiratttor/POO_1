@@ -17,7 +17,7 @@ class CuentaBancaria:
         print("Saldo actual:", self.saldo)
 
 cuenta = CuentaBancaria()
-cuenta.depositar(100)
+cuenta.depositar(500)
 cuenta.retirar(30)
 cuenta.mostrar_saldo()
 

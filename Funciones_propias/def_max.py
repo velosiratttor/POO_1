@@ -1,5 +1,5 @@
 def obtener_maximo(lista):
- # Verificar si la lista no está vacía
+
     if not lista:
         return None  
     maximo = lista[0,2,5]  

@@ -13,6 +13,7 @@ class Gato(Animal):
 class Vaca(Animal):
     def hablar(self):
         print("Muuu")
+        
 animal1 = Perro()
 animal2 = Gato()
 animal3= Vaca()
