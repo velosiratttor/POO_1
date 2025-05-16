@@ -1,18 +1,18 @@
 #Crear una clase abstracta `Notificador` y heredar 
 #`Correo`, `SMS` y `NotificaciónPush` para diferentes medios.
-class Notificador:
+class notificador:
     def enviar(self, mensaje):
         pass
 
-class Correo(Notificador):
+class correo(notificador):
     def enviar(self, mensaje):
         print("Correo enviado:", mensaje)
 
-class SMS(Notificador):
+class SMS(notificador):
     def enviar(self, mensaje):
         print("SMS enviado:", mensaje)
 
-class NotificacionPush(Notificador):
+class notificacionpush(notificador):
     def enviar(self, mensaje):
         print("Push enviado:", mensaje)
 
