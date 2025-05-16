@@ -2,7 +2,7 @@
 #`Correo`, `SMS` y `NotificaciónPush` para diferentes medios.
 class notificador:
     def enviar(self, mensaje):
-        pass
+        self.mensaje = mensaje
 
 class correo(notificador):
     def enviar(self, mensaje):
